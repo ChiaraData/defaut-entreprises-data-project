@@ -1,13 +1,13 @@
 import requests
 import pandas as pd
 import time
-from utils.config import base_url, clé_API_SIRENE
+from utils.config import base_url, SIRENE_API_KEY 
 
 # --------------------
 # Paramètres API SIRENE
 # --------------------
 API_URL = base_url
-API_KEY = clé_API_SIRENE
+API_KEY = SIRENE_API_KEY
 
 HEADERS = {
     "X-INSEE-Api-Key-Integration": API_KEY
