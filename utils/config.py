@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-base_url = "https://api.insee.fr/entreprises/sirene/V3/siret"
+base_url = "https://api.insee.fr/api-sirene/3.11/siret"
 
 load_dotenv()  # charge les variables d'environnement depuis .env
 
